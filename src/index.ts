@@ -32,3 +32,10 @@ let isExtinct: boolean = true
 function sayHello(config: any) {
   return config
 }
+
+let animals: string[] = ['Lion', 'Tiger', 'Bear']
+let numbers: number[] = [1, 2, 3, 4, 5]
+let checks: boolean[] = []
+let numbers2: Array<number> = []
+
+// animals.map(x => x.) The autocomplete suggest the methods of the data type
