@@ -24,3 +24,11 @@ message = "Bye World"
  * tuples
  * enums
  */
+
+let dinosaurExintion: number = 76_000_000
+let favoriteDinosaur: string = "Velociraptor"
+let isExtinct: boolean = true
+
+function sayHello(config: any) {
+  return config
+}
